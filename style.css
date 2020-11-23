@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+p {
+    display: flex;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+
+.section-block {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 200px;
+    width: 30%;
+    border: 2px solid silver;
+    padding-top: 10px;
+}
+
+.input-field {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
